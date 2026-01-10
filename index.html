@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+            margin: 0;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color:rgb(114, 80, 114) ;
+        }
+        .box{
+            width: 20vw;
+            height: 40vh;
+            border-radius: 30px;
+            font-size: 250px;
+            color:white;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 1s ease-in-out;
+        }
+        .sub1{
+            background-color: red;
+            position: absolute;
+            top: 30vh;
+            left: 4vw;
+        }
+        .sub2{
+            background-color: green;
+            position: absolute;
+            top: 33vh;
+            left: 28vw;
+        }
+        .sub3{
+            background-color: blue;
+            position: absolute;
+            top: 30vh;
+            right: 28vw;
+        }
+        .sub4{
+            background-color:yellow;
+            position: absolute;
+            top: 33vh;
+            right: 4vw;
+        }
+        .sub5 img{
+            width: 250px;
+
+        }
+        .sub5{
+            position: fixed;
+            top: 5vh;
+            left: 50px;
+        }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            
+        }
+        .main:hover .sub1{
+            background-color: rgb(255,255, 255, 0);
+            border: 15px solid red;
+            color: red;
+            transform: rotate(-10deg);
+            left: 8vw;
+        }
+         .main:hover .sub2{
+            background-color: rgb(255,255, 255, 0);
+            border: 15px solid green;
+            color: green;
+            transform: rotate(10deg);
+            right: 8vw;
+        }
+         .main:hover .sub3{
+            background-color: rgb(255,255,255, 0);
+            border: 15px solid blue;
+            color:blue;
+            transform: rotate(-10deg);
+            right: 32vw;
+        }
+        .main:hover .sub4{
+            background-color: rgb(255,255,255, 0);
+            border: 15px solid yellow;
+            color:yellow;
+            transform: rotate(10deg);
+            right: 12vw;
+        }
+            
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <div class = "box sub1"> Z</div>
+        <div class = "box sub2">O</div>
+        <div class = "box sub3">H</div>
+        <div class = "box sub4">O</div>
+        <div class ="sub5">
+            <img src ="https://www.logoshape.com/wp-content/uploads/2025/08/zoho-logo-vector_logoshape.png"alt="zoho image">
+        </div>
+
+    </div>
+    <div calss ="main2"></div>
+    
+</body>
+</html>
